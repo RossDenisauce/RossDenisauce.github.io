@@ -21,3 +21,36 @@ body {
     max-height: 350px;
     width: auto;
 }
+
+.previous-work {
+    display: flex;
+    flex-direction: row;
+}
+
+.pin-dropper {
+    height: 200px;
+    margin-right: 15px;
+    background-color: rgb(41, 66, 112);
+}
+
+.cmarks {
+    height: 200px;
+    background-color: rgb(41, 66, 112);
+}
+
+#pin-dropper {
+    height: 200px;
+}
+
+#cmarks {
+    height: 200px;
+}
+
+#pin-dropper:hover {
+    cursor: pointer;
+    opacity: .25;
+}
+#cmarks:hover {
+    cursor: pointer;
+    opacity: .25;
+}
