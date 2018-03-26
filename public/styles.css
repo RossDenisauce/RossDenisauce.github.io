@@ -1,25 +1,52 @@
 body {
     background-color: rgb(102, 127, 168);
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .container {
     display: flex;
     justify-content: center;
     background-color: rgb(229, 236, 252);
-    height: 100%;
+    /* height: 100%; */
     border-radius: 6px;
     margin: 75px 55px 75px 55px;
 }
 
 .main-card {
+    height: 1100px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+}
+
+.greeting {
+    margin: 10px;
+    font-size: 55px;
 }
 
 #main-picture {
+    margin: 15px 0 15px 0;
     max-height: 350px;
     width: auto;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.info-about {
+    font-size: 18px;
+    margin: 15px 50px 0 50px;
+}
+
+.checkout {
+    margin-top: 45px;
+    font-size: 20px;
 }
 
 .previous-work {
@@ -53,4 +80,25 @@ body {
 #cmarks:hover {
     cursor: pointer;
     opacity: .25;
+}
+
+.info-contact {
+    font-size: 25px;
+    margin-top: 25px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.mail {
+    color: rgb(41, 66, 112);
+    text-decoration: none;
+}
+
+.github {
+    color: rgb(41, 66, 112);
+    text-decoration: none;
 }
