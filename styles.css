@@ -23,6 +23,7 @@ body {
 .greeting {
     margin: 10px;
     font-size: 55px;
+    text-shadow: 2px 2px rgb(102, 127, 168);
 }
 
 #main-picture {
